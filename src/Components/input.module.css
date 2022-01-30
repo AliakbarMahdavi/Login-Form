@@ -1,0 +1,35 @@
+.formLabel {
+    display: flex;
+    justify-content: left;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin-bottom: -8px;
+}
+
+.formInput {
+    width: 100%;
+    height: 35px;
+    transition: all 0.2s ease-in;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.uncompleted {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid red;
+  transition: all 0.2s ease-in;
+}
+.uncompleted:focus,
+.formInput:focus{
+  outline: none;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #1a73e8;
+}

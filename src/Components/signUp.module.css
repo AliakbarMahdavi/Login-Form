@@ -1,0 +1,105 @@
+.SignUp {
+  width: fit-content;
+  background-color: #f9f9f9;
+  margin: 80px auto;
+  padding: 30px 70px 50px 70px;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  color: #1a73e8;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 60px;
+}
+
+.formField {
+  text-align: center;
+}
+
+.formField span {
+  font-size: 14px;
+  display: flex;
+  justify-content: left;
+  margin: -10px 0 15px 0;
+  color: red;
+  line-height: 10px;
+  padding: 2px 3px;
+  border-radius: 3px;
+}
+
+.formField span:nth-of-type(5) {
+  margin-top: 10px;
+}
+
+.formField > .CheckBox> label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a73e8 ;
+}
+
+.formField > .CheckBox {
+  width: 100%;
+  text-align: left;
+  position: relative; 
+  margin: 10 0 0 0 ;  
+}
+
+.formField > .CheckBox > span{
+  margin-top: 5px;
+}
+
+.formField > .CheckBox > input[type="checkbox"] {
+  margin-left: 10px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #1a73e8;
+  appearance: none;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+  position: absolute;
+  top: 0;
+}
+
+input[type="checkbox"]:checked {
+  width: 18px;
+  height: 18px;
+  background-color: #1a73e8;
+  border-radius: 50%;
+}
+
+.formField > .BT {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.formField > .BT > a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+}
+
+.formField > .BT > input {
+  text-align: right;
+  margin-left: 200px;
+  background-color: #1a73e8;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
